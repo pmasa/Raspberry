@@ -10,7 +10,7 @@ pin_relay = 22
 GPIO.setup(pin_relay, GPIO.OUT)
 GPIO.output(pin_relay, False)
 
-pb = Pushbullet("o.Tc4lPsyu1U1vyRTwACB58zgJ2xFynMpC")
+pb = Pushbullet("xxxxx")
 print(pb.devices)
 status = False
 
