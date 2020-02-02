@@ -8,5 +8,5 @@ Pour le niveau d'eau, les fils sont respectivement sur BCM2 et l'autre à la mas
 # Pushbullet
 - créer un account Pushbullet
 - créer un token
-- utiliser les tokens pour faire un broadcast
+- les tokens sont utilisés pour broadcaster le message à tout le monde
 
