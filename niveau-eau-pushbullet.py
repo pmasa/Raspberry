@@ -86,16 +86,16 @@ while True:
         GPIO.output(pin_relay, False)
     elif i == 0:
         print ("Niveau d'eau atteint")
-        gsm1 = pb.get_device('iPhone de Pedro Masamuna')
+        gsm1 = pb.get_device('iPhone de TTTTT')
         push = gsm1.push_note("Alert !!", "Niveau d'innondation atteint")
-	#push = pb.push_sms(gsm1, "+32476783818", "Alert innondation !!!")
+	#push = pb.push_sms(gsm1, "+32476123456", "Alert innondation !!!")
         gsm2 = pb.devices[0]
 	#myriam = pb.contact[0]
 	#push = myriam.push_note("Alert !!", "Niveau d'innondation atteint")	
 	print(gsm2)
 	push = pb.push_sms(gsm2, "+32477123456", "Alert innondation !!!")
         #push = gsm2.push_note("Alert GSM2!!", "Niveau d'innondation atteint")
-        #push = pb.push_note("Hello world!", "We're using the api.", contact="myriam masamuna")
+        #push = pb.push_note("Hello world!", "We're using the api.", contact="zzzzz")
 	send_notification_via_pushbullet("Alert innondation!!", "Niveau d'innodation atteint")
 	#contacts = pb.getContacts()
 	#print(contacts)
