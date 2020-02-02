@@ -99,6 +99,6 @@ while True:
 	send_notification_via_pushbullet("Alert innondation!!", "Niveau d'innodation atteint")
 	#contacts = pb.getContacts()
 	#print(contacts)
-	#pushNote(self, "mmas1028@gmail.com", "Alert!!!", "Niveau atteint", recipient_type="device_iden")
+	#pushNote(self, "yyyyy@gmail.com", "Alert!!!", "Niveau atteint", recipient_type="device_iden")
 	sleep(2)
         GPIO.output(pin_relay, True)
